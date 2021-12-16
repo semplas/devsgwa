@@ -103,7 +103,7 @@ export default function Home() {
                       With our latest campaign to take all businesses online, thousands of customers rely 
                       on our digital solutions to get their businessesand ideas online. We offer everything you need to 
                       create an effective and memorable presence online. We are an all in one solution to 
-                      get you online with professionals experinced in all feilds of digital presence.
+                      get you online with professionalz experinced in all feilds of digital presence.
                     </p>
                   </div>
             </div>
