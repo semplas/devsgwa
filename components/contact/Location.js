@@ -35,7 +35,7 @@ export default function Location() {
                   42-44 Nightingale Square London SW12 8QL United Kingdom
                 </p>
                 <span className="flex items-center text-lg font-bold text-blue-600">
-                  Customzation Details
+                  Click to get directions
                   <svg
                     className="w-4 h-4 ml-2"
                     fill="none"
@@ -82,7 +82,7 @@ export default function Location() {
                   Najjera 1 along mbogo Road Kampala central Uganda
                 </p>
                 <span className="flex items-center text-lg font-bold text-blue-600">
-                  Integration Details
+                  Click to get directions
                   <svg
                     className="w-4 h-4 ml-2"
                     fill="none"

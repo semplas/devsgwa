@@ -4,15 +4,14 @@ import Link from "next/link";
 export default function ContactHeader() {
   return (
     <>
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-blue-50">
         <div className="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
           <div className="flex flex-wrap items-center -mx-3">
             <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
               <div className="w-full lg:max-w-md">
                 <h2 className="mb-4 text-2xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
-                  our clients' satisfaction is what keeps our doors open, and
-                  helping you stand out is the best way to make sure you're
-                  completely satisfied
+                  Our clients' satisfaction is what keeps our doors open, that
+                  why we are available for any queries.
                 </h2>
                 <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6"></p>
                 <ul>
