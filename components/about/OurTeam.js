@@ -30,7 +30,7 @@ export default function OurTeam() {
                     alt=""
                   />
                   <svg
-                    className="absolute inset-0 w-full h-full text-pink-500 transform scale-150 fill-current opacity-10"
+                    className="absolute inset-0 w-full h-full text-blue-500 transform scale-150 fill-current opacity-10"
                     viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -43,7 +43,7 @@ export default function OurTeam() {
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
                     <h3>Mike Jones</h3>
-                    <p className="text-pink-500">Founder &amp; CEO</p>
+                    <p className="text-blue-500">Founder &amp; CEO</p>
                   </div>
                   <div className="relative flex items-center justify-center space-x-3">
                     <a href="#_" className="text-gray-300 hover:text-gray-400">
@@ -214,7 +214,7 @@ export default function OurTeam() {
                     alt=""
                   />
                   <svg
-                    className="absolute inset-0 w-full h-full text-pink-500 transform scale-150 fill-current opacity-10"
+                    className="absolute inset-0 w-full h-full text-blue-500 transform scale-150 fill-current opacity-10"
                     viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -227,7 +227,7 @@ export default function OurTeam() {
                 <div className="space-y-2">
                   <div className="space-y-1 text-lg font-medium leading-6">
                     <h3>Sandy Mckenzie</h3>
-                    <p className="text-pink-500">Lead Designer</p>
+                    <p className="text-blue-500">Lead Designer</p>
                   </div>
                   <div className="relative flex items-center justify-center space-x-3">
                     <a href="#_" className="text-gray-300 hover:text-gray-400">

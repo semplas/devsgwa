@@ -17,7 +17,7 @@ export default function ContactHeader() {
                 <ul>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <svg
-                      className="w-8 h-8 text-pink-500"
+                      className="w-8 h-8 text-blue-500"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
