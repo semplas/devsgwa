@@ -28,7 +28,7 @@ export default function OurProjects() {
                   />
                 </a>
                 <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
-                  <div class="bg-indigo-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white">
+                  <div class="bg-blue-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white">
                     <span>Transport</span>
                   </div>
                   <h2 class="text-base font-bold sm:text-lg md:text-xl">

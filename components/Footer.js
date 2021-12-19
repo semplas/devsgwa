@@ -19,35 +19,35 @@ export default function Footer() {
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
               <p className="mb-3 text-xs font-semibold tracking-wider text-blue-200 uppercase">
-                Product
+                Servicec
               </p>
               <Link href="/contact">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Features
+                  Website App development
                 </a>
               </Link>
 
               <Link href="/contact">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Integrations
+                  Mobile App Development
                 </a>
               </Link>
 
               <Link href="/contact">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Documentation
+                  IT tutoring
                 </a>
               </Link>
 
               <Link href="/contact">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  FAQs
+                  IT consultancy
                 </a>
               </Link>
 
               <Link href="/contact">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Pricing
+                  Digital Marketing
                 </a>
               </Link>
             </nav>
@@ -69,13 +69,13 @@ export default function Footer() {
 
               <Link href="/about">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Privacy
+                  Team
                 </a>
               </Link>
 
               <Link href="/blog">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Blog
+                  Process
                 </a>
               </Link>
             </nav>
@@ -83,13 +83,13 @@ export default function Footer() {
               <p className="mb-3 text-xs font-semibold tracking-wider text-blue-200 uppercase">
                 Contact
               </p>
-              <Link href="/contact">
+              <Link href="/blog">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
-                  Advertising
+                  Request Quote
                 </a>
               </Link>
 
-              <Link href="/about">
+              <Link href="/blog">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Press
                 </a>
@@ -101,7 +101,7 @@ export default function Footer() {
                 </a>
               </Link>
 
-              <Link href="/contact">
+              <Link href="/about">
                 <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Partners
                 </a>

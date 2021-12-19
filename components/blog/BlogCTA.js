@@ -8,7 +8,7 @@ export default function BlogCTA() {
       <section className="py-20 bg-gray-50">
         <div className="flex flex-col items-center justify-between px-12 mx-auto text-left md:px-8 lg:px-16 lg:flex-row max-w-7xl">
           <div className="relative mb-6 space-y-4 md:space-y-1 lg:pr-20 lg:mb-0 lg:text-left lg:space-y-3">
-            <p className="flex items-center justify-start text-base font-semibold text-indigo-500">
+            <p className="flex items-center justify-start text-base font-semibold text-blue-500">
               Take your skills to the next level
               <svg
                 className="w-4 h-4 ml-2"
@@ -37,7 +37,7 @@ export default function BlogCTA() {
           <div className="flex w-full sm:w-auto xl:inline-flex">
             <a
               href="#_"
-              className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-indigo-500 border border-transparent rounded-md shadow md:w-auto hover:bg-indigo-600"
+              className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-blue-500 border border-transparent rounded-md shadow md:w-auto hover:bg-blue-600"
             >
               Request Quote
             </a>
