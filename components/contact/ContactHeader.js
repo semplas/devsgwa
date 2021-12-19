@@ -10,7 +10,7 @@ export default function ContactHeader() {
           <div className="flex">
             <div className="relative z-50 md:w-7/12">
               <svg
-                className="absolute w-6 h-auto -ml-10 text-indigo-400 fill-current"
+                className="absolute w-6 h-auto -ml-10 text-blue-400 fill-current"
                 viewBox="0 0 100 84"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -21,13 +21,13 @@ export default function ContactHeader() {
                 proactive approach to problem solving that keeps your systems
                 operating at peak performance at a &gt;99% rate.
               </blockquote>
-              <p className="mt-3 text-sm text-indigo-300">DevsGwa Team .</p>
-              <p className="mt-10 text-xs text-indigo-300">
+              <p className="mt-3 text-sm text-blue-300">DevsGwa Team .</p>
+              <p className="mt-10 text-xs text-blue-300">
                 If you are willing to move forward with the solution{" "}
               </p>
               <a
                 href="#_"
-                className="inline-block w-full px-10 py-3 mt-4 text-base font-medium text-center text-indigo-500 bg-gray-100 rounded md:w-auto"
+                className="inline-block w-full px-10 py-3 mt-4 text-base font-medium text-center text-blue-500 bg-gray-100 rounded md:w-auto"
               >
                 Contact Us
               </a>

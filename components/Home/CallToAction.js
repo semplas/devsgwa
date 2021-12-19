@@ -22,7 +22,7 @@ export default function CallToAction() {
             </a>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200"
             >
               Request Quotation
             </a>
