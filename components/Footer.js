@@ -9,10 +9,7 @@ export default function Footer() {
         <div className="px-8 py-12 mx-auto max-w-7xl">
           <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div className="col-span-3">
-              <a
-                href="#_"
-                className="text-xl font-black leading-none text-white select-none logo"
-              >
+              <a className="text-xl font-black leading-none text-white select-none logo">
                 DevsGwa
               </a>
               <p className="my-4 text-xs leading-normal text-blue-100">
@@ -24,100 +21,97 @@ export default function Footer() {
               <p className="mb-3 text-xs font-semibold tracking-wider text-blue-200 uppercase">
                 Product
               </p>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Features
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Integrations
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Documentation
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                FAQs
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Pricing
-              </a>
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Features
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Integrations
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Documentation
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  FAQs
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Pricing
+                </a>
+              </Link>
             </nav>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
               <p className="mb-3 text-xs font-semibold tracking-wider text-blue-200 uppercase">
                 About
               </p>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Our Story
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Company
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Privacy
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Blog
-              </a>
+              <Link href="/about">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Our Story
+                </a>
+              </Link>
+
+              <Link href="/about">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Company
+                </a>
+              </Link>
+
+              <Link href="/about">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Privacy
+                </a>
+              </Link>
+
+              <Link href="/blog">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Blog
+                </a>
+              </Link>
             </nav>
             <nav className="col-span-2 md:col-span-1 lg:col-span-2">
               <p className="mb-3 text-xs font-semibold tracking-wider text-blue-200 uppercase">
                 Contact
               </p>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Advertising
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Press
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Email
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Partners
-              </a>
-              <a
-                href="#"
-                className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white"
-              >
-                Jobs
-              </a>
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Advertising
+                </a>
+              </Link>
+
+              <Link href="/about">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Press
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Email
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Partners
+                </a>
+              </Link>
+
+              <Link href="/contact">
+                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                  Jobs
+                </a>
+              </Link>
             </nav>
             <div className="col-span-3">
               <span className="inline-flex justify-center w-full mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-end">
@@ -204,18 +198,17 @@ export default function Footer() {
               © Copyright 2021 Tails. All Rights Reserved.
             </p>
             <div className="flex items-start justify-start space-x-6 md:items-center md:justify-center">
-              <a
-                href="#_"
-                className="text-sm text-blue-200 transition hover:text-white"
-              >
-                Terms
-              </a>
-              <a
-                href="#_"
-                className="text-sm text-blue-200 transition hover:text-white"
-              >
-                Privacy
-              </a>
+              <Link href="/about">
+                <a className="text-sm text-blue-200 transition hover:text-white">
+                  Terms
+                </a>
+              </Link>
+
+              <Link href="/about">
+                <a className="text-sm text-blue-200 transition hover:text-white">
+                  Privacy
+                </a>
+              </Link>
             </div>
           </div>
         </div>

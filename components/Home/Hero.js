@@ -26,9 +26,7 @@ export default function Hero() {
               Devsgwa
             </p>
             <h1 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
-              The Future of
-              <br className="hidden md:block" />
-              <span className="inline-block text-blue-500">
+              <span className="inline-block text-white">
                 Reliable Software Developers You Can Trust
               </span>
             </h1>
