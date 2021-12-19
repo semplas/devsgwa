@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function AboutHeader() {
   return (
     <>
-      <section className="w-full px-8 pt-20 pb-16 bg-white xl:px-0">
+      <section className="w-full px-8 pt-20 pb-16 bg-gray-200 xl:px-0">
         <div className="flex flex-col items-start max-w-6xl mx-auto md:flex-row">
           <h3 className="w-full text-4xl font-extrabold tracking-normal text-gray-900 sm:text-5xl md:text-5xl md:pr-10 lg:pr-16 xl:pr-20 md:leading-none md:-mt-2 md:w-1/2">
             Our development process was created to ensure every project is

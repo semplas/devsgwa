@@ -1,46 +1,89 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 
 export default function ContactHeader() {
   return (
     <>
-      <section className="w-full px-10 py-12 bg-blue-500 lg:py-20">
-        <div className="relative flex max-w-5xl px-24 py-16 mx-auto rounded-lg lg:py-20 bg-blue-600 shadow-lg">
-          <div className="flex">
-            <div className="relative z-50 md:w-7/12">
-              <svg
-                className="absolute w-6 h-auto -ml-10 text-blue-400 fill-current"
-                viewBox="0 0 100 84"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M40.87 0C28.12 0 18.117 3.91 10.873 11.826 3.613 19.742 0 32.09 0 48.913v34.941H42.032V46.112H21.745c0-9.242 1.509-16.114 4.468-20.613 2.959-4.5 7.838-6.762 14.656-6.762V0zm57.64 0c-6.375 0-12.052.938-17.039 2.86-4.987 1.922-9.271 4.866-12.78 8.877-3.507 4.026-6.196 9.133-8.071 15.34-1.861 6.223-2.8 13.478-2.8 21.836v34.941H100V46.112H79.744c0-9.242 1.48-16.114 4.438-20.613 2.959-4.5 7.74-6.762 14.328-6.762V0z"></path>
-              </svg>
-              <blockquote className="text-2xl font-thin text-white lg:text-3xl">
-                Our approach is to implement a lean, scalable solution with a
-                proactive approach to problem solving that keeps your systems
-                operating at peak performance at a &gt;99% rate.
-              </blockquote>
-              <p className="mt-3 text-sm text-blue-300">DevsGwa Team .</p>
-              <p className="mt-10 text-xs text-blue-300">
-                If you are willing to move forward with the solution{" "}
-              </p>
-              <a
-                href="#_"
-                className="inline-block w-full px-10 py-3 mt-4 text-base font-medium text-center text-blue-500 bg-gray-100 rounded md:w-auto"
-              >
-                Contact Us
-              </a>
+      <section className="py-20 bg-gray-50">
+        <div className="container items-center max-w-6xl px-4 px-10 mx-auto sm:px-20 md:px-32 lg:px-16">
+          <div className="flex flex-wrap items-center -mx-3">
+            <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
+              <div className="w-full lg:max-w-md">
+                <h2 className="mb-4 text-2xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
+                  our clients' satisfaction is what keeps our doors open, and
+                  helping you stand out is the best way to make sure you're
+                  completely satisfied
+                </h2>
+                <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6"></p>
+                <ul>
+                  <li className="flex items-center py-2 space-x-4 xl:py-3">
+                    <svg
+                      className="w-8 h-8 text-pink-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                      ></path>
+                    </svg>
+                    <span className="font-medium text-gray-500">
+                      +256705467976 (Office)
+                    </span>
+                  </li>
+                  <li className="flex items-center py-2 space-x-4 xl:py-3">
+                    <svg
+                      className="w-8 h-8 text-yellow-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                      ></path>
+                    </svg>
+                    <span className="font-medium text-gray-500">
+                      hi@devsgwa.com
+                    </span>
+                  </li>
+                  <li className="flex items-center py-2 space-x-4 xl:py-3">
+                    <svg
+                      className="w-8 h-8 text-green-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                      ></path>
+                    </svg>
+                    <span className="font-medium text-gray-500">
+                      +256705752569 (WhatApps)
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+              <img
+                className="mx-auto sm:max-w-sm lg:max-w-full"
+                src="https://cdn.devdojo.com/images/november2020/feature-graphic.png"
+                alt="feature image"
+              />
             </div>
           </div>
-          <img
-            src="https://cdn.devdojo.com/images/august2021/user-bg.png"
-            className="absolute bottom-0 right-0 z-20 block h-full mr-6 origin-bottom transform scale-90 opacity-10 lg:hidden lg:mr-12"
-          />
-          <img
-            src="https://cdn.devdojo.com/images/august2021/user-bg.png"
-            className="absolute bottom-0 right-0 z-20 hidden h-full mr-6 origin-bottom transform scale-110 lg:block lg:mr-12"
-          />
         </div>
       </section>
     </>
