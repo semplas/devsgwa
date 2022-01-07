@@ -20,9 +20,8 @@ export default function Header({ title, description, keywords }) {
           media="all"
         />
       </Head>
-      <section className="relative block w-full h-auto py-2 leading-10 text-center text-blue-900 bg-white md:py-2">
+      <section className="relative block w-full h-auto py-2 leading-10 text-center text-blue-900 bg-white md:py-2 fixed">
         <div className="absolute top-0 right-0 w-1/2 h-full transform opacity-50 bg-blue-50"></div>
-
         <div className="flex items-center w-full h-full px-4 mx-auto leading-10 text-center md:h-24 md:px-4 lg:px-6 max-w-7xl">
           <div className="flex flex-col items-center justify-between w-full h-full text-blue-900 md:flex-row">
             <div className="relative z-10 flex items-center w-auto px-4 leading-10 lg:flex-grow-0 lg:flex-shrink-0 lg:text-left">

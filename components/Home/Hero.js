@@ -7,7 +7,7 @@ export default function Hero() {
       <section className="relative flex flex-col-reverse w-full px-6 py-16 bg-gray-900 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
           <svg
-            className="absolute left-0 hidden h-full text-gray-900 transform -translate-x-1/2 lg:block"
+            className="absolute left-0 hidden h-full text-blue-900 transform -translate-x-1/2 lg:block"
             viewBox="0 0 100 100"
             fill="currentColor"
             preserveAspectRatio="none slice"
