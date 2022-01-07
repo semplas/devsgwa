@@ -33,55 +33,55 @@ export default function Header({ title, description, keywords }) {
             </div>
             <div className="relative left-0 z-0 flex items-center justify-center w-auto w-full h-full px-4 my-5 space-x-5 text-lg font-medium leading-10 md:space-x-1 md:text-base lg:text-lg md:space-x-6 md:my-0 lg:w-full md:mt-0 md:absolute lg:space-x-12 md:text-left lg:text-center fixed">
               <Link href="/projects">
-                <a
+                <span
                   x-data="{ hover: false }"
                   className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
                 >
                   <span className="block">Case Studies</span>
-                </a>
+                </span>
               </Link>
 
               <Link href="/about">
-                <a
+                <span
                   x-data="{ hover: false }"
                   className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
                 >
                   <span className="block">About Us</span>
-                </a>
+                </span>
               </Link>
 
               <Link href="/services">
-                <a
+                <span
                   x-data="{ hover: false }"
                   className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
                 >
                   <span className="block">Services</span>
-                </a>
+                </span>
               </Link>
 
               <Link href="/blog">
-                <a
+                <span
                   x-data="{ hover: false }"
                   className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
                 >
                   <span className="block">Blog</span>
-                </a>
+                </span>
               </Link>
             </div>
 
             <div className="relative w-full px-4 space-x-5 text-lg font-medium leading-10 md:space-x-3 md:text-base lg:text-lg lg:space-x-12 sm:w-auto">
               <Link href="/contact">
-                <a
+                <span
                   x-data="{ hover: false }"
                   className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
                 >
                   <span className="block">Contact Us</span>
-                </a>
+                </span>
               </Link>
               <Link href="/contact">
-                <a className="inline-flex items-center justify-center px-5 py-3 text-base font-bold text-white uppercase whitespace-no-wrap bg-blue-600 shadow-sm md:text-sm lg:text-base bg-gradient-to-r from-blue-600 to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 rounded-none">
+                <span className="inline-flex items-center justify-center px-5 py-3 text-base font-bold text-white uppercase whitespace-no-wrap bg-blue-600 shadow-sm md:text-sm lg:text-base bg-gradient-to-r from-blue-600 to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 rounded-none">
                   Request Quote
-                </a>
+                </span>
               </Link>
             </div>
           </div>

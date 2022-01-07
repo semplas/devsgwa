@@ -21,12 +21,12 @@ export default function AboutCTA() {
               </p>
             </div>
             <div className="flex w-full md:w-auto lg:flex-shrink-0">
-              <a
+              <span
                 href="#_"
                 className="block w-full px-5 py-3 text-base font-medium leading-6 text-center text-white transition duration-150 ease-in-out bg-blue-600 md:inline-flex md:rounded-md md:shadow md:w-auto hover:bg-blue-500 focus:outline-none focus:shadow-outline"
               >
                 Get Started for $15/mo
-              </a>
+              </span>
             </div>
           </div>
         </div>

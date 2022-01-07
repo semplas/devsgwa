@@ -25,12 +25,12 @@ export default function ContactHeader() {
               <p className="mt-10 text-xs text-blue-300">
                 If you are willing to move forward with the solution{" "}
               </p>
-              <a
+              <span
                 href="#_"
                 className="inline-block w-full px-10 py-3 mt-4 text-base font-medium text-center text-blue-500 bg-gray-100 rounded md:w-auto"
               >
                 Contact Us
-              </a>
+              </span>
             </div>
           </div>
           <img

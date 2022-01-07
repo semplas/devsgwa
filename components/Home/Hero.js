@@ -35,18 +35,18 @@ export default function Hero() {
               business to the next level.
             </p>
             <div className="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">
-              <a
+              <span
                 href="/"
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-blue-500 rounded shadow-md sm:w-auto sm:mr-4 sm:mb-0 hover:bg-deep-blue-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Request Quote
-              </a>
-              <a
+              </span>
+              <span
                 href="/"
                 className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-gray-700 rounded shadow-md sm:w-auto hover:bg-deep-blue-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Contact Us
-              </a>
+              </span>
             </div>
           </div>
         </div>

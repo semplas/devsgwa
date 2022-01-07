@@ -59,7 +59,7 @@ export default function OurTechnoloy() {
             </div>
           </div>
           <div className="flex items-center justify-center w-full ml-2">
-            <a href="#" className="flex items-center">
+            <span href="#" className="flex items-center">
               <span className="border-b-2 border-black">
                 Visit Our Testimonials
               </span>
@@ -70,7 +70,7 @@ export default function OurTechnoloy() {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </a>
+            </span>
           </div>
         </div>
       </section>

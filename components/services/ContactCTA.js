@@ -18,18 +18,18 @@ export default function ContactCTA() {
             understand the passion behind your idea.
           </p>
           <div className="flex flex-col items-center justify-start w-full space-y-5 md:flex-row md:space-y-0 md:space-x-5 md:justify-center">
-            <a
+            <span
               href="#_"
               className="w-full px-10 py-4 font-medium text-center text-white bg-blue-300 rounded-lg md:w-auto"
             >
               Request Quote
-            </a>
-            <a
+            </span>
+            <span
               href="#_"
               className="w-full px-10 py-4 font-medium text-center text-gray-200 border border-gray-600 rounded-lg md:w-auto"
             >
               Contact Us
-            </a>
+            </span>
           </div>
         </div>
       </section>

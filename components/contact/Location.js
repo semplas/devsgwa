@@ -7,7 +7,7 @@ export default function Location() {
       <section className="bg-white">
         <div className="max-w-6xl py-12 mx-auto">
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
-            <a
+            <span
               href="#_"
               className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-blue-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
             >
@@ -52,8 +52,8 @@ export default function Location() {
                   </svg>
                 </span>
               </div>
-            </a>
-            <a
+            </span>
+            <span
               href="#_"
               className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-blue-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
             >
@@ -99,7 +99,7 @@ export default function Location() {
                   </svg>
                 </span>
               </div>
-            </a>
+            </span>
           </div>
         </div>
       </section>

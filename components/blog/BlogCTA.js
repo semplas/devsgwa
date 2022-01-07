@@ -35,12 +35,12 @@ export default function BlogCTA() {
             </p>
           </div>
           <div className="flex w-full sm:w-auto xl:inline-flex">
-            <a
+            <span
               href="#_"
               className="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-blue-500 border border-transparent rounded-md shadow md:w-auto hover:bg-blue-600"
             >
               Request Quote
-            </a>
+            </span>
           </div>
         </div>
       </section>

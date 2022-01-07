@@ -14,18 +14,18 @@ export default function CallToAction() {
             Are you ready to start building the app or website of your dreams?
           </p>
           <div className="flex justify-center mt-8 space-x-3">
-            <a
+            <span
               href="#"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white border border-transparent rounded-md shadow bg-blue-600 hover:bg-blue-700"
             >
               Contact Us
-            </a>
-            <a
+            </span>
+            <span
               href="#"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200"
             >
               Request Quotation
-            </a>
+            </span>
           </div>
         </div>
       </section>

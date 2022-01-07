@@ -9,9 +9,9 @@ export default function About() {
   return (
     <>
       <Header />
-      <AboutHeader />
+      <spanboutHeader />
       <WhyUs />
-      <AboutCTA />
+      <spanboutCTA />
       <OurTeam />
       <Footer />
     </>

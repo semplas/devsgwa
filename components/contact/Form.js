@@ -37,18 +37,18 @@ export default function Form() {
                 data-dashlane-rid="393bca5d8fd8d2e5"
                 data-form-type="email"
               />
-              <a
+              <span
                 href="#_"
                 className="flex-shrink-0 px-10 py-5 text-2xl font-medium text-center text-white bg-blue-600 rounded-lg focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50 focus:ring-offset-2 focus:outline-none"
               >
                 Call Me back
-              </a>
+              </span>
             </div>
             <p className="text-gray-400">
               By signing up you agree to our{" "}
-              <a href="#_" className="text-blue-600 underline">
+              <span href="#_" className="text-blue-600 underline">
                 terms of service
-              </a>
+              </span>
               .
             </p>
           </div>

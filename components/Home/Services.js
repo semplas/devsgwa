@@ -31,7 +31,7 @@ export default function Services() {
 
           <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-1 sm:row-start-2 md:row-start-3">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -52,10 +52,10 @@ export default function Services() {
                     Mobile Application Design
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-1 xl:col-start-2 sm:row-start-4 md:row-start-5 xl:row-start-2">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -76,10 +76,10 @@ export default function Services() {
                     Business , IT Consultancy &amp; Tutoring
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-2 xl:col-start-2 sm:row-start-6 md:row-start-2 xl:row-start-4">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -100,10 +100,10 @@ export default function Services() {
                     Website design and maintenance
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-2 xl:col-start-3 sm:row-start-1 md:row-start-4 xl:row-start-1">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -124,10 +124,10 @@ export default function Services() {
                     Software Quality Assurance
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-3 xl:col-start-3 sm:row-start-3 md:row-start-1 xl:row-start-3">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -148,10 +148,10 @@ export default function Services() {
                     Systems Integration &amp; API Development
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-3 xl:col-start-4 sm:row-start-5 md:row-start-3 xl:row-start-2">
-              <a
+              <span
                 href="#_"
                 className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group"
                 style={{ aspectRatio: 1 / 1 }}
@@ -172,7 +172,7 @@ export default function Services() {
                     Digital Marketing &amp; Content creation
                   </h4>
                 </div>
-              </a>
+              </span>
             </div>
           </div>
         </div>

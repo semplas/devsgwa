@@ -9,12 +9,12 @@ export default function BlogHeader() {
         <div className="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
           <div className="flex flex-col items-center sm:px-5 md:flex-row">
             <div className="w-full md:w-1/2">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96"
                   src="https://cdn.devdojo.com/images/may2021/cupcakes.jpg"
                 />
-              </a>
+              </span>
             </div>
             <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">
               <div className="flex flex-col items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
@@ -30,13 +30,13 @@ export default function BlogHeader() {
                   <span>Featured</span>
                 </div>
                 <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">
-                  <a href="#_">Savory Templates. Sweet Designs.</a>
+                  <span href="#_">Savory Templates. Sweet Designs.</span>
                 </h1>
                 <p className="pt-2 text-sm font-medium">
                   by{" "}
-                  <a href="#_" className="mr-1 underline">
+                  <span href="#_" className="mr-1 underline">
                     John Doe
-                  </a>{" "}
+                  </span>{" "}
                   · <span className="mx-1">April 23rd, 2021</span> ·{" "}
                   <span className="mx-1 text-gray-600">5 min. read</span>
                 </p>
@@ -46,38 +46,38 @@ export default function BlogHeader() {
 
           <div className="flex grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/fruit.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-blue-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Lifestyle</span>
               </div>
               <h2 className="text-lg font-bold sm:text-xl md:text-2xl">
-                <a href="#_">Creating a Future Worth Living</a>
+                <span href="#_">Creating a Future Worth Living</span>
               </h2>
               <p className="text-sm text-gray-500">
                 Learn the attributes you need to gain in order to build a future
                 and create a life that you are truly happy with.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Mary Jane
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">April 17, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/workout.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-blue-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Health</span>
               </div>
@@ -89,21 +89,21 @@ export default function BlogHeader() {
                 yourself, you'll need to upgrade your life.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Fred Jones
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">April 10, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/food.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-red-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Food</span>
               </div>
@@ -115,21 +115,21 @@ export default function BlogHeader() {
                 totally fine to live like kings and eat like royalty.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Mike Roberts
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">April 6, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/books.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-blue-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Motivation</span>
               </div>
@@ -141,21 +141,21 @@ export default function BlogHeader() {
                 yourself and it will allow you to share your story.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Tom Johnson
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">May 25, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/clock.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-gray-800 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Business</span>
               </div>
@@ -167,21 +167,21 @@ export default function BlogHeader() {
                 in life or staying exactly where you are.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Scott Reedman
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">May 18, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>
             </div>
 
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-              <a href="#_" className="block">
+              <span href="#_" className="block">
                 <img
                   className="object-cover w-full mb-2 overflow-hidden rounded-lg max-h-56"
                   src="https://cdn.devdojo.com/images/may2021/lemons.jpg"
                 />
-              </a>
+              </span>
               <div className="bg-yellow-400 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
                 <span>Nutrition</span>
               </div>
@@ -193,9 +193,9 @@ export default function BlogHeader() {
                 Relaxation and a healthy diet can go a long way.
               </p>
               <p className="pt-2 text-xs font-medium">
-                <a href="#_" className="mr-1 underline">
+                <span href="#_" className="mr-1 underline">
                   Jake Caldwell
-                </a>{" "}
+                </span>{" "}
                 · <span className="mx-1">May 15, 2021</span> ·{" "}
                 <span className="mx-1 text-gray-600">3 min. read</span>
               </p>

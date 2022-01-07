@@ -14,7 +14,7 @@ export default function Home() {
       <OurTechnoloy />
       <Services />
       <CallToAction />
-      <Articles />
+      <spanrticles />
       <Testimonies />
       <Footer />
     </>

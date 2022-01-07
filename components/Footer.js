@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="px-8 py-12 mx-auto max-w-7xl">
           <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div className="col-span-3">
-              <a className="text-xl font-black leading-none text-white select-none logo">
+              <span className="text-xl font-black leading-none text-white select-none logo">
                 DevsGwa
-              </a>
+              </span>
               <p className="my-4 text-xs leading-normal text-blue-100">
                 Beautifully hand-crafted components to help you build amazing
                 pages.
@@ -22,33 +22,33 @@ export default function Footer() {
                 Servicec
               </p>
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Website App development
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Mobile App Development
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   IT tutoring
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   IT consultancy
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Digital Marketing
-                </a>
+                </span>
               </Link>
             </nav>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
@@ -56,27 +56,27 @@ export default function Footer() {
                 About
               </p>
               <Link href="/about">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Our Story
-                </a>
+                </span>
               </Link>
 
               <Link href="/about">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Company
-                </a>
+                </span>
               </Link>
 
               <Link href="/about">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Team
-                </a>
+                </span>
               </Link>
 
               <Link href="/blog">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Process
-                </a>
+                </span>
               </Link>
             </nav>
             <nav className="col-span-2 md:col-span-1 lg:col-span-2">
@@ -84,38 +84,38 @@ export default function Footer() {
                 Contact
               </p>
               <Link href="/blog">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Request Quote
-                </a>
+                </span>
               </Link>
 
               <Link href="/blog">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Press
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Email
-                </a>
+                </span>
               </Link>
 
               <Link href="/about">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Partners
-                </a>
+                </span>
               </Link>
 
               <Link href="/contact">
-                <a className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
+                <span className="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">
                   Jobs
-                </a>
+                </span>
               </Link>
             </nav>
             <div className="col-span-3">
               <span className="inline-flex justify-center w-full mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-end">
-                <a href="#" className="text-blue-100 hover:text-white">
+                <span href="#" className="text-blue-100 hover:text-white">
                   <span className="sr-only">Facebook</span>
                   <svg
                     className="w-6 h-6"
@@ -129,9 +129,9 @@ export default function Footer() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </span>
 
-                <a href="#" className="text-blue-100 hover:text-white">
+                <span href="#" className="text-blue-100 hover:text-white">
                   <span className="sr-only">Instagram</span>
                   <svg
                     className="w-6 h-6"
@@ -145,9 +145,9 @@ export default function Footer() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </span>
 
-                <a href="#" className="text-blue-100 hover:text-white">
+                <span href="#" className="text-blue-100 hover:text-white">
                   <span className="sr-only">Twitter</span>
                   <svg
                     className="w-6 h-6"
@@ -157,9 +157,9 @@ export default function Footer() {
                   >
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                   </svg>
-                </a>
+                </span>
 
-                <a href="#" className="text-blue-100 hover:text-white">
+                <span href="#" className="text-blue-100 hover:text-white">
                   <span className="sr-only">GitHub</span>
                   <svg
                     className="w-6 h-6"
@@ -173,9 +173,9 @@ export default function Footer() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </span>
 
-                <a href="#" className="text-blue-100 hover:text-white">
+                <span href="#" className="text-blue-100 hover:text-white">
                   <span className="sr-only">Dribbble</span>
                   <svg
                     className="w-6 h-6"
@@ -189,7 +189,7 @@ export default function Footer() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </span>
               </span>
             </div>
           </div>
@@ -199,15 +199,15 @@ export default function Footer() {
             </p>
             <div className="flex items-start justify-start space-x-6 md:items-center md:justify-center">
               <Link href="/about">
-                <a className="text-sm text-blue-200 transition hover:text-white">
+                <span className="text-sm text-blue-200 transition hover:text-white">
                   Terms
-                </a>
+                </span>
               </Link>
 
               <Link href="/about">
-                <a className="text-sm text-blue-200 transition hover:text-white">
+                <span className="text-sm text-blue-200 transition hover:text-white">
                   Privacy
-                </a>
+                </span>
               </Link>
             </div>
           </div>

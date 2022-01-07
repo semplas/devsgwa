@@ -18,12 +18,12 @@ export default function Testimonies() {
                 Don't just take our word for it, read from our extensive list of
                 case studies and customer testimonials.
               </p>
-              <a
+              <span
                 href="#_"
                 class="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent shadow hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10 rounded-none"
               >
                 View Case Studies
-              </a>
+              </span>
             </div>
             <div class="w-full lg:w-1/2">
               <blockquote class="flex items-center justify-between w-full col-span-1 p-6 bg-white shadow rounded-none">
