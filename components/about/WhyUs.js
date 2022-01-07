@@ -17,22 +17,7 @@ export default function WhyUs() {
               <div className="grid gap-4 mt-8 leading-7 border-0 border-gray-200 sm:mt-10 sm:gap-6 lg:mt-12 lg:gap-8">
                 <div className="box-border flex items-start text-gray-900 border-solid">
                   <div className="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
-                    <p className="box-border m-0 text-xl text-white border-solid">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
-                        ></path>
-                      </svg>
-                    </p>
+                    <p className="box-border m-0 text-xl text-white border-solid"></p>
                   </div>
                   <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
                     <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">
@@ -46,22 +31,7 @@ export default function WhyUs() {
                 </div>
                 <div className="box-border flex items-start text-gray-900 border-solid">
                   <div className="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
-                    <p className="box-border m-0 text-xl text-white border-solid">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                        ></path>
-                      </svg>
-                    </p>
+                    <p className="box-border m-0 text-xl text-white border-solid"></p>
                   </div>
                   <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
                     <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">
@@ -75,22 +45,7 @@ export default function WhyUs() {
                 </div>
                 <div className="box-border flex items-start text-gray-900 border-solid">
                   <div className="flex items-center justify-center w-12 h-12 leading-7 bg-blue-600 border-0 border-gray-200 rounded-full">
-                    <p className="box-border m-0 text-xl text-white border-solid">
-                      <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
-                        ></path>
-                      </svg>
-                    </p>
+                    <p className="box-border m-0 text-xl text-white border-solid"></p>
                   </div>
                   <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
                     <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">

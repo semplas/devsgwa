@@ -19,7 +19,6 @@ export default function Testimonies() {
                 case studies and customer testimonials.
               </p>
               <span
-                href="#_"
                 className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent shadow hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 md:text-lg md:px-10 rounded-none"
               >
                 View Case Studies
@@ -29,13 +28,6 @@ export default function Testimonies() {
               <blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white shadow rounded-none">
                 <div className="flex flex-col pr-8">
                   <div className="relative pl-12">
-                    <svg
-                      className="absolute left-0 w-10 h-10 text-blue-500 fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 100 125"
-                    >
-                      <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
-                    </svg>
                     <p className="mt-2 text-xs text-gray-600 sm:text-base lg:text-sm xl:text-base">
                       Our old website was terrible. It didn't work on mobile,
                       and I don't think it ever generated a lead for our sales
@@ -61,13 +53,6 @@ export default function Testimonies() {
               <blockquote className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-white shadow rounded-none">
                 <div className="flex flex-col pr-10">
                   <div className="relative pl-12">
-                    <svg
-                      className="absolute left-0 w-10 h-10 text-blue-500 fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 100 125"
-                    >
-                      <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
-                    </svg>
                     <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
                       DevsGwa did a great job on our website. We regularly
                       update our page layouts and content to improve

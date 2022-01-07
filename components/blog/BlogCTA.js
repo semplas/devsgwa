@@ -10,20 +10,6 @@ export default function BlogCTA() {
           <div className="relative mb-6 space-y-4 md:space-y-1 lg:pr-20 lg:mb-0 lg:text-left lg:space-y-3">
             <p className="flex items-center justify-start text-base font-semibold text-blue-500">
               Take your skills to the next level
-              <svg
-                className="w-4 h-4 ml-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                ></path>
-              </svg>
             </p>
             <h2 className="text-4xl font-normal tracking-tight md:text-3xl md:leading-tight xl:text-4xl">
               Let's bring Your Business idea to life Today.

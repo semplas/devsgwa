@@ -6,14 +6,7 @@ export default function Hero() {
     <>
       <section className="relative flex flex-col-reverse w-full px-6 py-16 bg-gray-900 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
-          <svg
-            className="absolute left-0 hidden h-full text-blue-900 transform -translate-x-1/2 lg:block"
-            viewBox="0 0 100 100"
-            fill="currentColor"
-            preserveAspectRatio="none slice"
-          >
-            <path d="M50 0H80L50 120H0L50 0Z"></path>
-          </svg>
+         
           <img
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             src="https://images.unsplash.com/photo-1601933470096-0e34634ffcde?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2250&amp;q=80"
