@@ -7,7 +7,7 @@ export default function Form() {
       <section className="py-20 bg-gray-200">
         <div className="max-w-5xl px-10 mx-auto xl:px-5">
           <div className="flex flex-col justify-center space-y-8">
-            <p className="w-full -mb-3 font-medium text-left text-blue-600 uppercase md:text-center">
+            <p className="w-full -mb-3 font-medium text-left text-blue-600 uppercase md:text-center text-3xl">
               devsgwa
             </p>
             <h2 className="w-full mx-auto text-4xl font-extrabold leading-none text-left text-gray-900 sm:text-5xl md:text-7xl md:text-center">

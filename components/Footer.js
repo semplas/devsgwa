@@ -12,9 +12,9 @@ export default function Footer() {
               <span className="text-xl font-black leading-none text-white select-none logo">
                 DevsGwa
               </span>
-              <p className="my-4 text-xs leading-normal text-blue-100">
-                Beautifully hand-crafted components to help you build amazing
-                pages.
+              <p className="my-4 text-xs leading-normal text-blue-100 text-lg">
+              we believe that for any business to flourish in an era where the leading fortune five hundred companies are technology-based, we help incorporate the right technology to grow the business.
+
               </p>
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">

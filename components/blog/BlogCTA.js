@@ -15,9 +15,8 @@ export default function BlogCTA() {
               Let's bring Your Business idea to life Today.
             </h2>
             <p className="text-base font-medium text-gray-500 sm:text-sm xl:text-base">
-              If you are serious about taking your game to the next level, then
-              you've got to contact us today! Call us on +2567053467976 or send
-              message to hi@devsgwa.com{" "}
+              If you are serious about taking your game to the next level, contact us today! <span class="text-2xl text-gray-500 font-bold">+256-753-467-976</span> or send
+              message to <span class="text-2xl text-gray-500 font-bold">hi@devsgwa.com</span>{" "}
             </p>
           </div>
           <div className="flex w-full sm:w-auto xl:inline-flex">

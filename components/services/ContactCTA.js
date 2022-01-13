@@ -7,7 +7,7 @@ export default function ContactCTA() {
     <>
       <section className="pt-20 pb-32 bg-gray-900">
         <div className="max-w-3xl px-12 mx-auto space-y-8 text-left lg:px-0 md:text-center">
-          <p className="mx-auto text-lg font-medium text-blue-300">DEVSGWA</p>
+          <p className="mx-auto text-4xl font-medium text-blue-300">DEVSGWA</p>
           <h2 className="max-w-2xl mx-auto text-5xl font-bold text-white md:text-6xl">
             <span className="text-blue-300">
               We take a structured approach to web and Mobile design.

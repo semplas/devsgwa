@@ -21,12 +21,10 @@ export default function ServiceSection() {
             <div className="grid items-center lg:grid-cols-2">
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
                 <h3 className="text-2xl font-semibold sm:text-4xl">
-                  Expertly Crafted
+                  Mobile applications Development
                 </h3>
                 <p className="text-lg text-gray-600">
-                  A beautiful drag and drop interface that allows you to create
-                  the landing page of your dreams. Our templates are designed
-                  for maximum conversion and the best user experience.
+                Got a mobile app idea, or something you think could be helpful to a target audience, or you have already begun development, but you need mastering from an experienced team, we got you covered. The field of mobile apps is booming each and every day, let’s build it, launch it, and possibly help you reach your target audience.
                 </p>
               </div>
               <div className="overflow-hidden bg-gray-100 h-96">
@@ -48,12 +46,10 @@ export default function ServiceSection() {
               </div>
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
                 <h3 className="text-2xl font-semibold sm:text-4xl">
-                  Magnificent Designs
+                  Website Development
                 </h3>
                 <p className="text-lg text-left text-gray-600">
-                  Delight your users with the most intuitive and easy to follow
-                  designs that will help you convert those visitors into paying
-                  customers.
+                At Devsgwa, we hold one goal above all others: 100% client satisfaction. Our in-house team of web designers, graphic designers, and developers uphold the highest standards for project planning and execution, and we're dedicated to building the perfect website for your company on-time and on-budget.
                 </p>
               </div>
             </div>
@@ -61,12 +57,10 @@ export default function ServiceSection() {
             <div className="grid items-center lg:grid-cols-2">
               <div className="flex flex-col items-start justify-center h-full py-16 pl-16 pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
                 <h3 className="text-2xl font-semibold sm:text-4xl">
-                  Easily Customizable
+                  Digital Marketing And Content Creation
                 </h3>
                 <p className="text-lg text-gray-600">
-                  All our templates are easy to customize and make your own. It
-                  has never been easier to integrate beautiful designs into your
-                  web applications.
+                Digital marketing and content are vital for growth in today’s competitive marketing environment. Brands that have documented content strategies that are carried out professionally on a consistent basis consistently out-perform those who don’t. At Devsgwa, we specialize in helping our clients leverage content through a variety of copywriting services.
                 </p>
               </div>
               <div className="bg-gray-100 h-96">

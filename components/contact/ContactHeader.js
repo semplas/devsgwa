@@ -10,24 +10,24 @@ export default function ContactHeader() {
             <div className="order-1 w-full px-3 lg:w-1/2 lg:order-0">
               <div className="w-full lg:max-w-md">
                 <h2 className="mb-4 text-2xl font-bold leading-tight tracking-tight sm:text-4xl font-heading">
-                  Our clients' satisfaction is what keeps our doors open, that
+                  Our clients' satisfaction is what keeps our doors open, that's
                   why we are available for any queries.
                 </h2>
                 <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6"></p>
                 <ul>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      +256705467976 (Office)
+                      Office Contact: +256-753-467-976
                     </span>
                   </li>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      hi@devsgwa.com
+                      Whatsapp Contact: +256-705-752-569
                     </span>
                   </li>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      +256705752569 (WhatApps)
+                      Email Address: hi@devsgwa.com
                     </span>
                   </li>
                 </ul>
