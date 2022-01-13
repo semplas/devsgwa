@@ -20,7 +20,7 @@ export default function Header({ title, description, keywords }) {
           media="all"
         />
       </Head>
-      <section className="relative block w-full h-auto py-2 leading-10 text-center text-blue-900 bg-white md:py-2 fixed">
+      <section className="relative block w-full h-auto py-1 leading-10 text-center text-blue-900 bg-white md:py-2 fixed">
         <div className="absolute top-0 right-0 w-1/2 h-full transform opacity-50 bg-blue-50"></div>
         <div className="flex items-center w-full h-full px-4 mx-auto leading-10 text-center md:h-24 md:px-4 lg:px-6 max-w-7xl">
           <div className="flex flex-col items-center justify-between w-full h-full text-blue-900 md:flex-row">
@@ -58,15 +58,6 @@ export default function Header({ title, description, keywords }) {
                   <span className="block">Services</span>
                 </span>
               </Link>
-
-              <Link href="/blog">
-                <span
-                  x-data="{ hover: false }"
-                  className="relative inline-block font-semibold text-center text-gray-600 no-underline bg-transparent cursor-pointer hover:text-blue-600 focus:no-underline"
-                >
-                  <span className="block">Blog</span>
-                </span>
-              </Link>
             </div>
 
             <div className="relative w-full px-4 space-x-5 text-lg font-medium leading-10 md:space-x-3 md:text-base lg:text-lg lg:space-x-12 sm:w-auto">
@@ -79,7 +70,7 @@ export default function Header({ title, description, keywords }) {
                 </span>
               </Link>
               <Link href="/contact">
-                <span className="inline-flex items-center justify-center px-5 py-3 text-base font-bold text-white uppercase whitespace-no-wrap bg-blue-600 shadow-sm md:text-sm lg:text-base bg-gradient-to-r from-blue-600 to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 rounded-none">
+                <span className=" cursor-pointer inline-flex items-center justify-center px-5 py-3 text-base font-bold text-white uppercase whitespace-no-wrap bg-blue-600 shadow-sm md:text-sm lg:text-base bg-gradient-to-r from-blue-600 to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 rounded-none">
                   Request Quote
                 </span>
               </Link>

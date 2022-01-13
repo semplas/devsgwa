@@ -11,22 +11,22 @@ export default function AboutCTA() {
               <h2 className="text-3xl font-extrabold leading-9 tracking-tight text-blue-100 sm:text-4xl sm:leading-10">
                 Ready to get started?
                 <br />
-                <span className="text-blue-500">
-                  Level-up with our Pro Plan.
+                <span className="text-blue-500 mt-3">
+                  Level-up your business
                 </span>
               </h2>
               <p className="w-full mt-5 text-base leading-6 text-blue-100 md:w-3/4">
-                Our intuitive drag'n drop interface will have you designing and
-                building interfaces quicker than ever before.
+                Our great team will have you design and build software(Web and
+                Applications) quicker than ever before.
               </p>
             </div>
             <div className="flex w-full md:w-auto lg:flex-shrink-0">
-              <span
+              <a
                 href="#_"
                 className="block w-full px-5 py-3 text-base font-medium leading-6 text-center text-white transition duration-150 ease-in-out bg-blue-600 md:inline-flex md:rounded-md md:shadow md:w-auto hover:bg-blue-500 focus:outline-none focus:shadow-outline"
               >
-                Get Started for $15/mo
-              </span>
+                Contact Us
+              </a>
             </div>
           </div>
         </div>
