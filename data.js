@@ -117,3 +117,72 @@ const services = [
     steps: [{ name: "", description: "" }],
   },
 ];
+
+const projects = [
+  {
+    name: "Mitenant",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "YoFare",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "Ukumbi",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "MarketOval",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "MiHome",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "MiHome",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "DeMeal",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+  {
+    name: "Retooling Academy",
+    description: "",
+    image: "",
+    technologies: [],
+    industry: "",
+    services: "",
+  },
+];
+
+export { projects, services };

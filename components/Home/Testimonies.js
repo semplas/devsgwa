@@ -44,11 +44,6 @@ export default function Testimonies() {
                     </span>
                   </h3>
                 </div>
-                <img
-                  className="flex-shrink-0 w-20 h-20 bg-gray-300 rounded-full xl:w-24 xl:h-24"
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
-                  alt=""
-                />
               </blockquote>
               <blockquote className="flex items-center justify-between w-full col-span-1 p-6 mt-4 bg-white shadow rounded-none">
                 <div className="flex flex-col pr-10">
@@ -69,11 +64,6 @@ export default function Testimonies() {
                   </h3>
                   <p className="mt-1 text-sm leading-5 text-gray-500 truncate"></p>
                 </div>
-                <img
-                  className="flex-shrink-0 w-24 h-24 bg-gray-300 rounded-full"
-                  src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;aauto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60"
-                  alt=""
-                />
               </blockquote>
             </div>
           </div>

@@ -44,13 +44,6 @@ export default function Form() {
                 Call Me back
               </span>
             </div>
-            <p className="text-gray-400">
-              By signing up you agree to our{" "}
-              <span href="#_" className="text-blue-600 underline">
-                terms of service
-              </span>
-              .
-            </p>
           </div>
         </div>
       </section>
