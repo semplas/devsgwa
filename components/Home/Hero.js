@@ -16,7 +16,7 @@ export default function Hero() {
           </svg>
           <img
             className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-            src="./bg_3.jpg"
+            src="./it.JPG"
             alt=""
           />
         </div>
@@ -26,7 +26,6 @@ export default function Hero() {
               Devsgwa
             </p>
             <h1 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
-              The Future of
               <br className="hidden md:block" />
               <span className="inline-block text-blue-500">
                 Reliable Software Developers You Can Trust

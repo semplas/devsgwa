@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WhyUs() {
   return (
     <>
-      <section className="relative leading-7 text-gray-900 bg-white border-solid py-4">
+      <section className="relative leading-7 text-gray-900 bg-white border-solid ">
         <div className="box-border mx-auto border-solid lg:pl-8 max-w-7xl">
           <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
             <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pl-10 lg:pr-20">
@@ -63,7 +63,7 @@ export default function WhyUs() {
               </div>
             </div>
             <div className="w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2">
-              <img src="./bg_1.jpg" className="object-cover w-full h-full" />
+              <img src="./katende.jpg" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>
