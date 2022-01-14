@@ -73,7 +73,7 @@ export default function Services() {
                     SERVICE 03
                   </span>
                   <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">
-                    Business , IT Consultancy &amp; Tutoring
+                    IT Consultancy
                   </h4>
                 </div>
               </span>
@@ -121,7 +121,7 @@ export default function Services() {
                     SERVICE 06
                   </span>
                   <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">
-                    Software Quality Assurance
+                    IT Tutoring
                   </h4>
                 </div>
               </span>
@@ -145,7 +145,7 @@ export default function Services() {
                     SERVICE 04
                   </span>
                   <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">
-                    Systems Integration &amp; API Development
+                    API Integration &amp; Development
                   </h4>
                 </div>
               </span>

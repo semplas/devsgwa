@@ -121,68 +121,147 @@ const services = [
 const projects = [
   {
     name: "Mitenant",
-    description: "",
+    description:
+      "Keep track of all your tenants in just one click. get the payment history, evict and communicate with you tenant just on one platform. Management maintenance tickets.",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+    ],
+    industry: "Real Estate",
+    services: "Mobile Application, Digital marketing, and website design",
   },
   {
     name: "YoFare",
-    description: "",
+    description:
+      "YoFare is changing the way we move by seamlessly making Urban and Rural travel more affordable and convenient.",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+    ],
+    industry: "Transport",
+    services: "Mobile Application, Digital marketing, and website design",
   },
   {
     name: "Ukumbi",
-    description: "",
+    description:
+      "We understand the gap in the entrepreneurial ecosystem and appreciate the difficulties that entrepreneurs face while trying to grow their business. ",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "PHP (Code Igniter)",
+      "UI and UX",
+      "Bootstrap",
+      "MySQL Database",
+      "",
+    ],
+    industry: "NGO-",
+    services: "Website design, Branding services, Digital marketing",
   },
   {
     name: "MarketOval",
-    description: "",
+    description:
+      "In this we have designed an on-line peer to peer system for businesses of all levels, ranging from small, medium and large seized enterprises. With this, your businesses doesn’t need to have a physical address since you do all your goods and services on-line.",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+      "MongoDB",
+    ],
+    industry: "E-Commerce",
+    services:
+      "Mobile application, API development, Server setup, Branding, Digital Marketing, ",
   },
   {
     name: "MiHome",
-    description: "",
+    description:
+      "An application to help you find a home in your neighborhood with only trusted blockers. A place to make payments and also make complaints to your landlord.",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
-  },
-  {
-    name: "MiHome",
-    description: "",
-    image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+    ],
+    industry: "Real Estate",
+    services:
+      "Mobile application, API development, Server setup, Branding, Digital Marketing, ",
   },
   {
     name: "DeMeal",
-    description: "",
+    description:
+      "Affordable meal delivery service for everyone, its easy to use and they focus only on quality food and good health",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+    ],
+    industry: "Food",
+    services:
+      "Mobile application, API development, Server setup, Branding, Digital Marketing, ",
   },
   {
     name: "Retooling Academy",
-    description: "",
+    description:
+      "A platform to get youth in school in uganda to get exposure to coding and solving community problems using technology",
     image: "",
-    technologies: [],
-    industry: "",
-    services: "",
+    technologies: [
+      "React JS",
+      "NodeJs",
+      "React Native",
+      "IOS",
+      "Android",
+      "Firebase",
+    ],
+    industry: "Education (IT)",
+    services:
+      "Mobile application, API development, Server setup, Branding, Digital Marketing, ",
   },
 ];
 
-export { projects, services };
+const blogs = [
+  {
+    title: "Getting started online",
+    description: "",
+    date: "Nov 23 2021",
+    picture: "",
+  },
+  {
+    title: "How to stand out Online",
+    description: "",
+    date: "Dec 02 2021",
+    picture: "",
+  },
+  {
+    title: "Why you need a website",
+    description: "",
+    date: "Jan 04 2022",
+    picture: "",
+  },
+  {
+    title: "Why you need a website",
+    description: "",
+    date: "Jan 04 2022",
+    picture: "",
+  },
+];
+
+export { projects, services, blogs };

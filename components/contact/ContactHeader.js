@@ -17,17 +17,17 @@ export default function ContactHeader() {
                 <ul>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      Office Contact: +256-753-467-976
+                      Office Contact: <b>+256-753-467-976</b>
                     </span>
                   </li>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      Whatsapp Contact: +256-705-752-569
+                      Whatsapp Contact: <b>+256-705-752-569</b>
                     </span>
                   </li>
                   <li className="flex items-center py-2 space-x-4 xl:py-3">
                     <span className="font-medium text-gray-500">
-                      Email Address: hi@devsgwa.com
+                      Email Address: <b>hi@devsgwa.com</b>
                     </span>
                   </li>
                 </ul>

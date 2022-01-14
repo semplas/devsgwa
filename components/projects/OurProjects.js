@@ -8,20 +8,20 @@ export default function OurProjects() {
       <section className="relative w-full bg-white">
         <div className="absolute w-full h-32 bg-gradient-to-b from-gray-100 to-white"></div>
         <div className="relative w-full px-5 py-10 mx-auto sm:py-12 md:py-16 md:px-10 max-w-7xl">
-          <h1 className="mb-1 text-3xl font-semiBold leading-none text-gray-900 lg:text-5xl xl:text-6xl sm:mb-3">
+          <h1 className="mb-1 text-2xl font-semiBold leading-none text-gray-900 lg:text-5xl xl:text-6xl sm:mb-3">
             <span href="#_" className="">
-              The Projects
+              Case studies
             </span>
           </h1>
           <p className="font-medium text-gray-500 sm:text-2xl">
-            Since we were founded in 2017 we have built up a customer base that
-            we are very proud of.
+            Since we were founded in 2017 <br /> we have built up a customer
+            base that we are very proud of.
           </p>
-          <small>
-            As a bespoke software development company we have delivered a vast
-            range of applications that have made a significant difference in
-            their business.
-          </small>
+          <p>
+            As a bespoke software development <br /> company we have delivered a
+            vast range of applications that have made <br /> a significant
+            difference in their business.
+          </p>
           <div className="flex grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16">
             <div className="grid grid-cols-12 col-span-12 gap-7">
               {projects.map((project, index) => (

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WhyUs() {
   return (
     <>
-      <section className="relative leading-7 text-gray-900 bg-white border-solid">
+      <section className="relative leading-7 text-gray-900 bg-white border-solid py-4">
         <div className="box-border mx-auto border-solid lg:pl-8 max-w-7xl">
           <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
             <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pl-10 lg:pr-20">
@@ -21,11 +21,12 @@ export default function WhyUs() {
                   </div>
                   <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
                     <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">
-                      Automated Tasks
+                      A Plan for Success
                     </h3>
                     <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">
-                      No more wasting time on manual tasks, you can leverage our
-                      automated tasks to make your life easier.
+                      You want results. We have found that the best way to get
+                      them is with up front research – of your company,
+                      competitors, target market and customer psychographics.
                     </p>
                   </div>
                 </div>
@@ -35,11 +36,13 @@ export default function WhyUs() {
                   </div>
                   <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
                     <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl">
-                      Email Campaigns
+                      Attention to Details
                     </h3>
                     <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">
-                      Utilize our email campaigns to send your users up-to-date
-                      information about your product and services.
+                      It’s our attention to the small stuff, scheduling of
+                      timelines and keen project management that makes us stand
+                      out from the rest. We are creative, while keeping a close
+                      eye on the calendar and your budget.
                     </p>
                   </div>
                 </div>
@@ -60,10 +63,7 @@ export default function WhyUs() {
               </div>
             </div>
             <div className="w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1553484771-047a44eee27a?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1234&amp;h=1600&amp;q=80"
-                className="object-cover w-full h-full"
-              />
+              <img src="./bg_1.jpg" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>
