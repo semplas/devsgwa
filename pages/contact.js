@@ -1,4 +1,5 @@
 import ContactHeader from "../components/contact/ContactHeader";
+import Faqs from "../components/contact/Faqs";
 import Form from "../components/contact/Form";
 import Location from "../components/contact/Location";
 import Footer from "../components/Footer";
@@ -11,6 +12,7 @@ export default function Contact() {
       <ContactHeader />
       <Location />
       <Form />
+      <Faqs />s
       <Footer />
     </>
   );

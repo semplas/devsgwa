@@ -63,7 +63,7 @@ export default function WhyUs() {
               </div>
             </div>
             <div className="w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2">
-              <img src="./katende.jpg" className="object-cover w-full h-full" />
+              <img src="./aa.jpg" className="object-cover w-full h-full" />
             </div>
           </div>
         </div>

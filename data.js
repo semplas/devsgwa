@@ -239,7 +239,7 @@ const projects = [
 
 const blogs = [
   {
-    title: "Getting started online",
+    title: "A great homepage",
     description: "",
     date: "Nov 23 2021",
     picture: "",

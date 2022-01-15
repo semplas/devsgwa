@@ -35,7 +35,7 @@ export default function OurProjects() {
                   >
                     <img
                       className="object-cover w-full shadow-sm max-h-56"
-                      src="https://cdn.devdojo.com/images/may2021/workstation.jpg"
+                      src={`https://via.placeholder.com/600/bfdbfe/666?text=${project.name.toLowerCase()}`}
                     />
                   </span>
                   <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
